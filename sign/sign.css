@@ -1,0 +1,16 @@
+form{
+    text-align: center;
+    height: 100%;
+    width: 100% auto;
+}
+form .sign{
+background: #cbcbcb;;
+border: 1px solid greenyellow;
+border-radius: 30px;
+margin: 100px;
+height: 95px;
+}
+input{
+    margin: 5px;
+    width: 20%;
+}

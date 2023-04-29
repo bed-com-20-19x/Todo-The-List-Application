@@ -27,11 +27,11 @@ if(isset($_GET['del_task'])){
     <div>
         <h1 class="heading">Todo The List Application</h1>
     </div>
-    <form method="POST" action="index.php">
+    <form method="POST" action="sign.php">
         <?php if(isset($errors)){ ?>
          <P><?Php echo $errors; ?></P>
         <?php }?>
-    <input type="text" name="task"   class="task_input">
+    <input type="text" name="task" class="task_input">
     <button type="submit" class="Add_btn" name="submit"> Add task </button>
     </form>
     <table>
